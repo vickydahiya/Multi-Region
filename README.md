@@ -2,22 +2,26 @@
 What is multi-Region and DR setup
 
 Benefits of Multi-Region
+	
 	High Availability
 	Faster Response time
 	Geolocation laws
 
 Pitfalls of Multi-Region
+	
 	Complexity
 	Effort
 	Costing
 
 Various patterns
+	
 	Backup and Store
 	Pilot Light
 	Warm Standby
 	Active-2
 	
 DR setup
+	
 	Create a global dynamo DB table using Terraform Script
 	
 	Create an IAM user who have access to this table
